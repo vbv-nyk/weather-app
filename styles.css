@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    max-height: 100vh;
+    gap: 100px;
+    height: 100vh;
+    background-color: rgb(24, 24, 24);
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"],
+label {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 10px;
+    width: max-content;
+    text-align: center;
+}
+
+input[type="text"] {
+    background-color: black;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+img {
+    height: 200px;
+}
+
+.weather-details {
+    color: white;
+    font-weight: 1000;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
